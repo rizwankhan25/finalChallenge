@@ -274,7 +274,7 @@ h5 {
 
 .part-5 {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: #fff;
     position: relative;
 }
@@ -305,6 +305,139 @@ h5 {
     font-weight: 500;
     line-height: 3.5vw;
 }
+
+.part-6 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.part6__text {
+    width: 25vw;
+    height: 60vh;
+    padding: 2vw 0vw;
+}
+
+.part6__text h3 {
+    font-weight: 300;
+    text-transform: capitalize;
+    opacity: .7;
+}
+
+.part6__text h1 {
+    font-weight: 500;
+    padding-top: 2.5vw;
+    opacity: .7;
+}
+
+.part6__img {
+    width: 50vw;
+    height: 60vh;
+    background-image: url(./Assets/64b00d29d9bb443408ec39f6_wb_casestudy_businesscards-p-2000.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.part-7 {
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+    position: relative;
+}
+.part-7 h1{
+    position: absolute;
+    top: 30%;
+    font-size: 12vw;
+    letter-spacing: 5vw;
+    color: #b309c3;
+    opacity: .05;
+}
+
+.part7__btn {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part7__btn-atag {
+    width: 20vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+}
+.part7__btn-atag:hover{
+    background-color: #50f7a6;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.part7__btn-circle {
+    position: absolute;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #50f7a6;
+    border-radius: 5vw;
+}
+.part7__btn-link{
+    z-index: 99;
+}
+.part7__btn-link a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 5px;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+.part7__text{
+    width: 100%;
+    height: 3vh;
+    margin-top: 40vh;
+}
+.part7__text .span1{
+    color: #4c07de;
+}
+.part7__text .span2{
+    color: #b309c3;
+}
+.part-8{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part8__content{
+    width: 60vw;
+    height: 75vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+    margin-left: 12vw;
+}
+.part8__content h4{
+    font-weight: 500;
+}
+.part8__content h1{
+    font-weight: 500;
+    width: 95%;
+    font-size: 2.5rem;
+    line-height: 5vw;
+    opacity: .7;
+}
+.part8__content h1 span{
+    font-weight: 800;
+    opacity: 1;
+    color: #000;
+}
+
 
 @media (max-width: 500px) {
     .part-1 {
