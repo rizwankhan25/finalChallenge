@@ -437,8 +437,214 @@ h5 {
     opacity: 1;
     color: #000;
 }
+.part-9{
+    width: 100%;
+    height: 138vh;
+    background-color: #f8e2d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.part9__top{
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+}
+.part9__top h1{
+    font-size: 18vw;
+    margin-top: -5.5vw;
 
-
+}
+.part9__mid{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+#card-1{
+    position: absolute;
+    bottom: 16%;
+    left: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img{
+    width: 7vw;
+    height: 13vh;
+    background-image: url(https://images.unsplash.com/photo-1491929007750-dce8ba76e610?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bW1lciUyMGplbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    width: 15vw;
+    height: 13vh;
+    /* padding: 1vw; */
+}
+.text p{
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    padding: .5vw;
+}
+.text a{
+    text-decoration: none;
+    letter-spacing: .1rem;
+}
+.text a:hover{
+    color: #000;
+}
+#card-2{
+    position: absolute;
+    top: 20%;
+    left: 21.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card-3{
+    position: absolute;
+    bottom: 16%;
+    left: 48.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card-4{
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card-5{
+    position: absolute;
+    bottom: 16%;
+    right: -30%;
+}
+.part9__btm{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15vw;
+}
+.part9__btm h1{
+    font-size: 22vw;
+    color: #fff;
+    margin-right: -7vw;
+}
+.part9__mid-cards{
+    width: 25vw;
+    height: 17vh;
+    background-color: #fff;
+    position: relative;
+}
+.part-10{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.part-10 h1{
+    font-size: 7vw;
+    margin-bottom: 5vw;
+    width: 65%;
+    color: #04046c;
+}
+.part-10 p{
+    font-size: 4vw;
+    width: 65%;
+    line-height: 5vw;
+}
+.part-10 span{
+    background-color: #fcc3ff;
+}
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1570299437522-f66ff98d52e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN1bW1lciUyMGplbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+#img3{
+    background-image: url(https://images.unsplash.com/photo-1484980859177-5ac1249fda6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bW1lciUyMGplbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+#img4{
+    background-image: url(https://media.istockphoto.com/id/1224339637/photo/online-shop-website-on-home-office-setup.webp?b=1&s=170667a&w=0&k=20&c=rLteFUlj28vw_Glj_rhWjsNb2qudMIC3v_-RGjXYY1g=);
+}
+.ri-arrow-right-up-line{
+    font-size: 8vw;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+.footer{
+    width: 100%;
+    height: 90vh;
+    background-color: #4c07de;
+    display: flex;
+    justify-content: center;
+    padding-top: 4vw;
+}
+.footer__main{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__main-left{
+    width: 40%;
+    height: 60vh;
+    color: #fff;
+}
+.sm__circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.bg__circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: #fff;
+}
+.footer__main-left h2{
+    padding-top: 2vw;
+    font-weight: 500;
+}
+.footer__main-left h6{
+    font-weight: 500;
+}
+.footer__main-left h1{
+    padding: 3vw 0;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.footer__main-right{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__main-part1{
+    width: 100%;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+}
+.footer__main-part1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
 @media (max-width: 500px) {
     .part-1 {
         width: 85%;
